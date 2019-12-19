@@ -1,0 +1,20 @@
+.sitename
+{
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.background
+{
+    padding-top: 3%;
+}
+
+html
+{
+    background: beige;
+}
+
+.posttitle
+{
+    text-align: center;
+}
