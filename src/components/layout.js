@@ -74,7 +74,7 @@ body{
     max-width: 100%;
     max-height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
     padding-left: 0px !important;
     margin: 0px !important;
