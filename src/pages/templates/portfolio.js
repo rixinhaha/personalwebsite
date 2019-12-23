@@ -15,7 +15,7 @@ export default ({pageContext}) => (
             <h1 className="posttitle">
                 {pageContext.title}
             </h1>
-            {/* <div><FeaturedImage src={pageContext.featured_media.source_url} /></div> */}
+            <div><FeaturedImage src={pageContext.featured_media.source_url} /></div>
             <div dangerouslySetInnerHTML={{__html: pageContext.content}} />
         </Layout>
     </div>
