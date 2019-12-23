@@ -11,7 +11,7 @@ export default ({pageContext}) =>
         <title>imrex</title>
         <Layout>
             <h1 dangerouslySetInnerHTML={{__html: pageContext.title}}/>
-            <img src={profile} />
+            <img src={profile} alt="profile"/>
             <div dangerouslySetInnerHTML={{__html: pageContext.content}} />
         </Layout>
     </div>
